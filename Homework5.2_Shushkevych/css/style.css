@@ -1,0 +1,105 @@
+body {
+    width: 100%;
+    margin-top: 80px;
+    background-color: #374040;
+}
+header {
+    text-align: center;
+    background-color: #464F4F;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #E68B81;
+}
+footer {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    background-color: #464F4F;
+    color: #E68B81;
+}
+footer.h2 {
+    font-size: 24px;
+}
+span > span::before {
+    content: "(";
+}
+span > span::after {
+    content: ")";
+}
+.list {
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 10px 10px 0 0 rgba(0,0,0,0.2);
+}
+.container {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    padding-left: 15px;
+    font-size: 30px;
+    width: 100%;
+    cursor: pointer;
+}
+p {
+    color: white;
+    margin: 0;
+}
+.checkmark {
+    margin-left: 40px;
+}
+.container input {
+    display: none
+}
+.checkmark::before {
+    content: "";
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    position: absolute;
+    left: 15px;
+    top: 14px;
+}
+.container:hover input~.checkmark::before {
+    background-color: #ccc;
+}
+
+.container input:checked~.checkmark:after {
+    display: block;
+    left: 23px;
+    top: 18px;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    content: "";
+    position: absolute;
+}
+.container input:checked~.checkmark {
+    text-decoration: line-through;
+    color: #9696AB;
+}
+.container:hover {
+    background-color: #5E6172 !important;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.container:active {
+    background-color: #C67E7B !important;
+}
+[rel=external]:nth-child(odd) {
+    background-color: #848498;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+[rel=internal] {
+    background-color: #77778D;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+*{transition: all .01s ease-in;}

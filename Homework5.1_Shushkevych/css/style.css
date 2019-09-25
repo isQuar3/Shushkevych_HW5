@@ -1,0 +1,100 @@
+body {
+    background-color: white;
+}
+table {
+    max-width: 1100px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 300px;
+}
+td {
+    width: 33.3%;
+
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+}
+.icon1 {
+    display: block;
+    border: 2px solid;
+    background-color: #2a69a6;
+    color: #2a69a6;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+.icon2 {
+    display: block;
+    border: 2px solid;
+    background-color: #2a69a6;
+    color: #2a69a6;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+.icon3 {
+    display: block;
+    border: 2px solid;
+    background-color: #2a69a6;
+    color: #2a69a6;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.icon1 img {
+    margin: 24px 28px;
+}
+.icon1:hover { 
+    background-color: transparent;
+}
+.icon1 img:last-child {
+    display:none;
+}
+.icon1:hover img:first-child {
+    display:none;
+}
+.icon1:hover img:last-child {
+    display:block;
+    margin: 24px 28px;
+}
+.icon2 img {
+    margin: 26px 27px;
+}
+.icon2:hover { 
+    background-color: transparent;
+}
+.icon2 img:last-child {
+    display:none;
+}
+.icon2:hover img:first-child {
+    display:none;
+}
+.icon2:hover img:last-child {
+    display:block;
+    margin: 26px 27px;
+}
+.icon3 img {
+    margin: 26px 27px;
+}
+.icon3:hover { 
+    background-color: transparent;
+}
+.icon3 img:last-child {
+    display:none;
+}
+.icon3:hover img:first-child {
+    display:none;
+}
+.icon3:hover img:last-child {
+    display:block;
+    margin: 26px 27px;
+}
